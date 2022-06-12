@@ -1,9 +1,9 @@
 import os, random, shutil
 
 #Prompting user to enter number of files to select randomly along with directory
-source="D://Bangkit Capstone/Riceleafsv3/train/narrow_brown_spot"
-dest="D://Bangkit Capstone/Riceleafsv3/validation/narrow_brown_spot "
-no_of_files=89
+source="D://Bangkit Capstone/Riceleafsv4/train/3.leaf_blast"
+dest="D://Bangkit Capstone/Riceleafsv4/validation/3.leaf_blast"
+no_of_files=91 
 
 print("%"*25+"{ Details Of Transfer }"+"%"*25)
 print("\n\nList of Files Moved to %s :-"%(dest))

@@ -1,6 +1,7 @@
 from glob import glob                                                           
 import cv2 
-pngs = glob('D://Bangkit Capstone/dataset(2)/output(2)/*.png')
+pngs = glob('D://Bangkit Capstone/sementara/fix/*.png')
+
 
 for j in pngs:
     img = cv2.imread(j)
